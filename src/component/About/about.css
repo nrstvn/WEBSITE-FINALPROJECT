@@ -1,0 +1,49 @@
+/* Style for Program Studi Section */
+.upcoming-meetings {
+  background-color: #f8f9fa; /* Set background color */
+  padding: 80px 0; /* Set padding */
+}
+
+/* Style for Section Heading */
+.upcoming-meetings .section-heading h2 {
+  color: #343a40; /* Set heading text color */
+  text-align: center; /* Center align the heading */
+}
+
+/* Style for Meeting Single Item */
+.meeting-single-item {
+  background-color: #ffffff; /* Set item background color */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  overflow: hidden; /* Hide overflowing content */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.meeting-single-item:hover {
+  transform: scale(1.05); /* Scale up the item on hover */
+}
+
+/* Style for Thumbnail Image */
+.meeting-single-item .thumb {
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.meeting-single-item .thumb img {
+  width: 100%; /* Make the image fill its container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any extra spacing */
+}
+
+/* Style for Down Content */
+.meeting-single-item .down-content {
+  padding: 20px; /* Add padding to the content */
+}
+
+.meeting-single-item h4 {
+  color: #343a40; /* Set heading color */
+  margin-bottom: 10px; /* Add margin to the bottom of the heading */
+}
+
+.meeting-single-item p {
+  color: #6c757d; /* Set text color */
+}

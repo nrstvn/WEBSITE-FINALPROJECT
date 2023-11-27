@@ -1,0 +1,35 @@
+/* Add these styles to arrange the instructors in three rows */
+.owl-courses-item {
+    display: flex;
+    flex-wrap: wrap;
+  }
+.owl-courses-item .section-heading {
+    text-align: center;
+}
+  
+  /* Adjust the width of each item to control the number of items per row */
+  .owl-courses-item .item {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust the percentage and margin accordingly */
+    margin: 10px;
+    color: white; /* Set text color to white */
+  }
+  
+  /* Styles for the Dekan FILKOM item */
+  .owl-courses-item .Dekan-item {
+    flex-basis: 100%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+  }
+  
+  /* Add media query for responsiveness, adjust as needed */
+  @media (max-width: 768px) {
+    .owl-courses-item .item {
+      flex: 0 0 calc(50% - 20px); /* Two items per row on smaller screens */
+    }
+  }
+  

@@ -1,0 +1,29 @@
+/* visiMisi.css */
+
+.unique-container {
+    background-color: #333; /* Set your desired background color */
+    color: white; /* Set the text color to white or any contrasting color */
+    padding: 25px; /* Adjust padding as needed */
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    flex-direction: column; /* Stack items vertically */
+  }
+  
+  .item {
+    text-align: left; /* Adjust text alignment as needed */
+    margin-bottom: 20px; /* Add margin between "Visi" and "Misi" */
+  }
+  
+  /* Add media query for responsiveness, adjust as needed */
+  @media (max-width: 768px) {
+    .item {
+      text-align: center; /* Center text on smaller screens */
+    }
+  }
+  
+  .logo {
+    max-width: 200px; /* Adjust the maximum width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    margin-bottom: 20px; /* Optional: Add margin to create space between logo and text */
+  }
+  

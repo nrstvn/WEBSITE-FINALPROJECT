@@ -1,0 +1,55 @@
+.header-area {
+  background-color: #333; /* Adjust the background color as needed */
+  padding: 5px 0; /* Further reduced padding top and bottom */
+}
+
+.header-area .logo {
+  font-size: 1.2rem; /* Further reduced logo font size */
+  color: #fff; /* Logo text color */
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-color: #fff; /* Navbar toggle icon color */
+}
+
+.navbar-dark .navbar-toggler:focus,
+.navbar-dark .navbar-toggler:hover {
+  outline: none;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  margin-right: 8px; /* Further reduced margin */
+  font-size: 18px; /* Further reduced font size */
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: #ffc107; /* Adjust the color on hover or when active */
+}
+
+.menu-trigger {
+  cursor: pointer;
+  display: none;
+  color: #fff;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  .menu-trigger {
+    display: block;
+  }
+
+  .navbar-collapse {
+    background-color: #333;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav .nav-link {
+    display: block;
+    margin: 6px 0; /* Further reduced margin */
+  }
+}
